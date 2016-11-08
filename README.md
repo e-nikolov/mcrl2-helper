@@ -11,9 +11,9 @@ signature refinement reduction.
 ./test formula lts - verifies a formula in the /modal_formulas folder against an LTS.
 
 Notes:
+
 1. The extensions must be skipped when specifying formulas and models (e.g. ./test req1 solar-car instead of ./test req.mcf solar-car.mcrl2)
 
 2. All modal formulas should be located in the /modal_formulas folder.
 
-3. In all scripts, an argument can be skipped by not specifying it if it is the last argument or by using a "_" if it is not the last (e.g. ./test _ solar-car, ./test req1).
-Doing so will be equivalent to executing the script with the same value for the skipped arguments as their value in the previous execution of the script.
+3. In all scripts, an argument can be skipped by not specifying it if it is the last argument or by using a "_" if it is not the last (e.g. ./test _ solar-car, ./test req1). Doing so will be equivalent to executing the script with the same value for the skipped arguments as their value in the previous execution of the script.
