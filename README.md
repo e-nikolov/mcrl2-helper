@@ -12,7 +12,7 @@ signature refinement reduction.
 
 Notes:
 
-1. The extensions must be skipped when specifying formulas and models (e.g. ./test req1 solar-car instead of ./test req.mcf solar-car.mcrl2)
+1. The extensions must be skipped when specifying formulas and models (e.g. ./test req1 solar-car instead of ./test req1.mcf solar-car.mcrl2)
 
 2. All modal formulas should be located in the /modal_formulas folder.
 
